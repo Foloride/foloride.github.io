@@ -1,0 +1,89 @@
+:root {
+    --primary-color: #df8600;
+    --secondary-color: #ffe139;
+    --background-color: #fffcd3;
+    --text-color: #613a00;
+    --border-color: #bd9e7093;
+    --modular-background-color: #fffdf2;
+    --light-text-color: #ffeed7;
+    --test: #bee000;
+}
+
+body {
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    text-align: justify;
+}
+
+.article {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.source {
+    font-style: italic;
+}
+
+.date {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+.btn-primary:active {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+th,
+td {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.navbar {
+    background-color: var(--secondary-color);
+}
+
+.navbar-brand {
+    color: var(--text-color);
+}
+
+.active {
+    border-bottom: 2px solid #af7800;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-weight: bold;
+    color: var(#fffdf2);
+    text-shadow: 5px 5px 10px #000;
+}
+
+.hero p {
+    color: var(--light-text-color);
+}
